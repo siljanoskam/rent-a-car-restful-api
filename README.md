@@ -2,6 +2,9 @@
 
 ## Get started
 1. Clone the repository
+
+**(Read note `**` first if you have no Docker installed on your machine)**
+
 2. Create a docker image with the Dockerfile that is pushed to the repository by running the following command:
     
         docker image build <full-path-of-the-dockerfile>
@@ -144,6 +147,8 @@
             }
 
 ### Notes
+
+** Note that I'm assuming that Docker is already installed on the machine that this project is about to be set up. If it is not, then go to Docker official website and install it first.
 
 * In case of testing the routes that are protected by authenticaton, you should first require a token from **POST (`/api/users/login`)**
 and the token from the response should be sent as an `Authorization` header in the next requests with value: `Bearer <token-from-response>`
