@@ -48,7 +48,7 @@
             	"firstName": "Magdalena",
             	"lastName": "Siljanoska",
             	"birthDate": "1994-06-10",
-            	"phoneNumber": "075604548"
+            	"phoneNumber": "075123456"
             }
 
 * Login **POST (`/api/login`)**
@@ -78,7 +78,7 @@
                 "address": "Bulever Aleksandar Makedonski",
                 "latitude": 55.8211230,
                 "longitude": 174.7644980,
-                "phoneNumber": "075604548"
+                "phoneNumber": "075123456"
             }
 * Get details about a location **GET (`/api/locations/{id}`)**
 * Update a location **PUT (`/api/locations/{id}`)**
@@ -91,7 +91,7 @@
                 "address": "Bulever Kliment Ohridski",
                 "latitude": 55.8211230,
                 "longitude": 174.7644980,
-                "phoneNumber": "075604548"
+                "phoneNumber": "075123456"
             }
 * Delete a location **DELETE (`/api/locations/{id}`)**
 
