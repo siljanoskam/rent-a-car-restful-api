@@ -159,4 +159,5 @@ should be sent as query parameters to the appropriate route with the exact names
   - Docker compose file, so the installation of the API is simpler and easier
   - Generating swagger for the API endpoints
   - Improve code readability and/or rework code with Laravel Resources
+  - Database queries optimization
   - Improve docs
